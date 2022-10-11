@@ -11,15 +11,23 @@ body{
 .header h1{
     color: rgba(10, 10, 10, 0.747);
     font-size: 3.7rem;
-    font-family: 'Rubik', sans-serif;
-    text-shadow: 3px 4px 5px rgb(112, 112, 112);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    line-height: 1;
     margin: 0;
 }
 .header p{
     color: rgb(0, 0, 0, 0.7);
     font-size: 2rem;
     font-family: 'Signika', sans-serif;
-    margin: 0;
+    margin: 2% auto 0 auto;
+}
+.span-dred {
+    color: rgb(184, 17, 17);
+}
+.span-dgreen {
+    color: darkgreen;
+    font-weight: bold;
 }
 
 .shapes-div{
@@ -49,7 +57,7 @@ body{
 {
     height: 210px;
     width: 210px;
-    background: linear-gradient(90deg, red, yellow, rgb(18, 184, 18), blue, red);
+    background: linear-gradient(90deg, red, yellow, rgb(7, 143, 7), rgb(6, 128, 228), blue, red);
     background-size: 400%;
     animation: slide 10s linear infinite;
     filter: blur(5px);
@@ -100,7 +108,7 @@ body{
     width: 245px;
 }
 .shape-3 p{
-    left: -21px;
+    left: -23px;
     top: -60px;
 }
 
@@ -131,5 +139,6 @@ body{
 }
 
 .github-fork-ribbon:before { 
-    background-color: #333;
+    /* background-color: #333; */
+    background: rgb(6, 150, 6);
 }
